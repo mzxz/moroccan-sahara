@@ -98,3 +98,37 @@ body {
     text-decoration-line: none;
     color: #fff;
 }
+
+/* Activites Section */
+
+#activites {
+    height: 600px;
+    width: 100%;
+    position: relative;
+  }
+  
+  #activites h2 {
+    text-align: center;
+    padding-top: 4%;
+  }
+  #camel-card, #biking-card, #sandboarding-card {
+      padding-top: 25px;
+     width: 30%;
+     height: 600px;
+     display: inline;
+  }
+
+  #camel-card {
+   background-color: blue;
+   float: left;
+  }
+
+  #biking-card {
+    background-color: greenyellow;
+    margin: 0 auto;
+  }
+
+  #sandboarding-card {
+    background-color: red;
+    float: right;
+  }
