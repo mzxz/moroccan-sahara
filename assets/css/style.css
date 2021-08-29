@@ -109,26 +109,48 @@ body {
   
   #activites h2 {
     text-align: center;
-    padding-top: 4%;
-  }
-  #camel-card, #biking-card, #sandboarding-card {
-      padding-top: 25px;
-     width: 30%;
-     height: 600px;
-     display: inline;
+    padding-top: 35px;
   }
 
   #camel-card {
-   background-color: blue;
+   background-color: greenyellow;
+   padding-top: 30px;
+   width: 33%;
+   height: 600px;
    float: left;
   }
 
+  .camel-trip-img {
+    height: 300px;
+    width: 100%;
+    background: url('/assets/images/camel-trip.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
   #biking-card {
-    background-color: greenyellow;
+    background-color: hotpink;
+    padding-top: 30px;
     margin: 0 auto;
+    width: 33%;
+  }
+
+  .quad-biking-img {
+    height: 300px;
+    width: 100%;
+    background: url('/assets/images/quad-biking.jpg') no-repeat center center;
+    background-size: cover;
   }
 
   #sandboarding-card {
-    background-color: red;
+    background-color: indigo;
+    padding-top: 30px;
     float: right;
+    width: 33%;
+  }
+  
+  .Sandboarding-img {
+    height: 300px;
+    width: 100%;
+    background: url('/assets/images/sandboarding1.jpg') no-repeat center center;
+    background-size: cover;
   }
