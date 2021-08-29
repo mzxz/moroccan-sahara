@@ -11,6 +11,8 @@ body {
     font-family : 'Roboto', 'Open Sans', sans-serif;
 }
 
+
+
 /* Style Nav */
 #logo {
     float: left;
@@ -102,55 +104,73 @@ body {
 /* Activites Section */
 
 #activites {
-    height: 600px;
+    height: 650px;
     width: 100%;
     position: relative;
+  }
+
+#cards {
+    height: 600px;
+    position: relative;
+    text-align: center;
+    font-size: 30px
+}
+
+  #activites > div {
+  
   }
   
   #activites h2 {
     text-align: center;
     padding-top: 35px;
+    padding-bottom: 30px;
   }
 
-  #camel-card {
-   background-color: greenyellow;
-   padding-top: 30px;
-   width: 33%;
-   height: 600px;
-   float: left;
-  }
-
-  .camel-trip-img {
-    height: 300px;
+  img {
     width: 100%;
-    background: url('/assets/images/camel-trip.jpg') no-repeat center center;
+    height: 560px;
     background-size: cover;
-  }
+   }
 
-  #biking-card {
-    background-color: hotpink;
-    padding-top: 30px;
-    margin: 0 auto;
-    width: 33%;
-  }
-
-  .quad-biking-img {
-    height: 300px;
-    width: 100%;
-    background: url('/assets/images/quad-biking.jpg') no-repeat center center;
-    background-size: cover;
-  }
-
-  #sandboarding-card {
-    background-color: indigo;
-    padding-top: 30px;
-    float: right;
-    width: 33%;
+   button {
+    transition-duration: 0.4s;
+    background-color: blue; /* blu */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
   }
   
-  .Sandboarding-img {
-    height: 300px;
-    width: 100%;
-    background: url('/assets/images/sandboarding1.jpg') no-repeat center center;
-    background-size: cover;
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
   }
+
+  .card1 {
+      padding-top: 30px;
+      height: 560px;
+      width: 33%;
+      float: left;
+      text-align: center;
+  }
+
+  .card3 {
+    padding-top: 30px;
+    height: 560px;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.card2 {
+    padding-top: 30px;
+    height: 560px;
+    width: 33%;
+    float: right;
+    text-align: center;
+}
