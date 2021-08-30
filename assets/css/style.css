@@ -103,6 +103,29 @@ body {
     color: #fff;
 }
 
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social {
+    text-align: center;
+
+}
+
+.social li{
+    display: inline;
+}
+
+.social i{
+    font-size: 170%;
+    margin: 1%;
+    padding: 5%;
+    color: #a52;
+}
+
+
 /* Activites Section */
 
 #activites {
