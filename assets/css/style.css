@@ -252,14 +252,14 @@ button:hover {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: #fff;
+    color: #000;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: #000;
+    color: #fff;
 }
 
 /* For medium screen sizes from 800px wide and down */
