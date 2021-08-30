@@ -106,10 +106,6 @@ span {
     color: #fff;
 }
 
-hr {
-    border: 1px solid red;
-}
-
 /* Footer */
 
 footer {
@@ -224,7 +220,6 @@ button:hover {
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #000;
     background-color: rgba(244, 162, 97, 0.9);
     max-width: 400px;
     position: absolute;
@@ -267,25 +262,42 @@ button:hover {
     color: #f16c6b;
 }
 
-#contact h1 {
-    overflow: hidden;
-}
-
-#contact div {
-    display: inline-block;
-    height: fit-content;
-    width: fit-content;
-    overflow: hidden;
-}
-
 /* For medium screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
+
+    #logo {
+        float: left;
+        font-size: 200%;
+        margin-left: 25px;
+    }
+
+    #logo,
+    #menu {
+        line-height: 55px;
+    }
+
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text h1 {
+        font-size: 180%;
+        letter-spacing: 1px;
+    }
+
+    #cover-text p {
+        font-size: 140%;  
+    }
+
+    #cover-text {
+        width: 350px;
+        height: 260px;
+        left: 2px;
+        position: absolute;
     }
 
     #activites {
@@ -304,4 +316,33 @@ button:hover {
         padding: 0;
     }
 
+}
+
+/* For small screens sizes 620px and down */
+@media screen and (max-width: 620px){
+    #logo {
+        font-size: 170%;
+    }
+
+    #menu {
+        font-size: 120%;
+        letter-spacing: 1px;
+        margin-left: 20px;
+    }
+
+    #cover-text {
+        width: 300px;
+        height: 260px;
+        left: 5px;
+        position: absolute;
+    }
+
+    #cover-text h1 {
+        font-size: 150%;
+        letter-spacing: 1px;
+    }
+
+    #cover-text p {
+        font-size: 110%;
+    }
 }
