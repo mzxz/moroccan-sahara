@@ -69,7 +69,7 @@ span {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/main-image.jpg') no-repeat center center;
+    background: url('../images/main-image.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -213,7 +213,7 @@ button:hover {
 .form-section {
     height: 600px;
     width: 100%;
-    background: url('assets/images/form-background.jpg') no-repeat center center;
+    background: url('../images/form-background.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
