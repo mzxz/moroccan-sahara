@@ -29,11 +29,42 @@
         </nav>
     </header>
 
-    <!-- Contact Section -->
-    <section> Sign Up</section>
+    <!-- Sign Up Section -->
+    <section class="form-section">
+        <form method="POST" action="https://google.com/" class="signup-form">
+            <h1>Signed up and take control </h1>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first-name" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last-name" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="emailaddress" class="text-input" required>
+            
+            <input type="submit" value="Sign up" class="join-button">
+        </form>
+    </section>
 
     <!-- Site Footer -->
- <footer>social links and external resources</footer>
+    <footer>
+        <ul class="social">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" 
+                 aria-label="Visit Us On Facebook"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" 
+                 aria-label="Visit Us On Twitter"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener" 
+                 aria-label="Visit Us On Youtube"><i class="fab fa-youtube"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/5612e5026a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
