@@ -55,3 +55,16 @@ I used W3C validator for HTML and Jigsaw Validator for CSS.
 [HTML - W3C HTML Validator](https://jigsaw.w3.org/css-validator/)
 \
 [CSS - Jigsaw CSS Validator](https://validator.w3.org/)
+
+
+#### Index Page
+![W3C Check](https://github.com/mzxz/moroccan-sahara/blob/main/docs/index-val1.jpg?raw=true)
+![Jigsaw Check](https://github.com/mzxz/moroccan-sahara/blob/main/docs/index-val2.jpg?raw=true)
+
+#### Activites Page
+![W3C Check](https://github.com/mzxz/moroccan-sahara/blob/main/docs/activites-val1.jpg?raw=true)
+![Jigsaw Check](https://github.com/mzxz/moroccan-sahara/blob/main/docs/activites-val2.jpg?raw=true)
+
+#### Sign up Page
+![W3C Check](https://github.com/mzxz/moroccan-sahara/blob/main/docs/sign-up-val.jpg?raw=true)
+![Jigsaw Check](https://github.com/mzxz/moroccan-sahara/blob/main/docs/sign-up-val2.jpg?raw=true)
