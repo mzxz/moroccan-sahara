@@ -325,13 +325,13 @@ button:hover {
     }
 
     #menu {
-        font-size: 120%;
+        font-size: 110%;
         letter-spacing: 1px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     #cover-text {
-        width: 300px;
+        width: 270px;
         height: 260px;
         left: 5px;
         position: absolute;
